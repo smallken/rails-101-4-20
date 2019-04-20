@@ -5,4 +5,7 @@ class Account::GroupsController < ApplicationController
       @groups = current_user.participated_groups
   end
 
+  def edit
+    
+  end
 end
